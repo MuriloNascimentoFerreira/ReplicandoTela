@@ -40,21 +40,25 @@ body {
 .tela{
     background-color: #f4f4f4;
     width: 350px;
-    height: 630px;
+    height: 640px;
     text-align: center;
     padding-top: 50px;
-    border-radius: 30px;
+    border-radius: 34px;
+}
+#iconeLocal{
+    width: 14px;
+    height: 14px;
 }
 
 .local{
-    font-size: 12px;
+    font-size: 11px;
     color: rgb(167, 165, 165);
     margin: 3px;
 }
 
 #profissao{
     font-family: 'Titillium Web';
-    font-size: 19px;
+    font-size: 17px;
 }
 
 #iconeSair{
@@ -66,8 +70,8 @@ body {
 }
 
 #imagem{
-    width: 105px;
-    height: 105px;
+    width: 100px;
+    height: 100px;
     border-radius: 360px;
     margin-right: 20px;
     margin-bottom: 3px;
@@ -83,8 +87,8 @@ body {
     border-radius: 18px;
     align-items: center;
     border-color: white;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 13px;
+    margin-bottom: 25px;
 }
 
 .settings{
@@ -92,10 +96,10 @@ body {
     text-align: left;
     font-family: 'Titillium light';
     font-size: 15px;
-    height: 334px;
-    padding-top: 12px;
+    height: 361px;
+    padding-top: 16px;
     padding-left: 35px;
-    border-radius: 35px;
+    border-radius: 34px;
 }
 .settings h1{
     font-size: 24px;
@@ -104,7 +108,13 @@ body {
 }
 
 #item1{
+    margin-top: 8px;
     margin-bottom: 25px;
+    display: flex;
+}
+
+#textoDark{
+    padding-top: 8px;
 }
 
 #iconeDark{
@@ -119,51 +129,86 @@ body {
 #iconeBotao{
     position: relative;
     left: 140px;
-    top: 10px;
+    top: 8px;
 }
 
 #item2{
-    margin-top: 7px;
+    margin-top: 12px;
     display: flex;
+}
+#iconeNotificacao{
+    width: 27px;
+    height: 27px;
 }
 
 #iconeBotaoOn{
     position: relative;
     width: 30px;
     height: 20px;
-    left: 140px;
+    left: 130px;
+    top: 5px;
 }
 
 #item3{
-    margin-top: 7px;
+    margin-top: 12px;
+    display: flex;
+}
+#iconePrivacidade{
+    width: 27px;
+    height: 27px;
 }
 
-
 #item4{
-    margin-top: 7px;
+    margin-top: 12px;
+    display: flex;
 }
 
 #item5{
     margin-top: 25px;
+    display: flex;
 }
 
 #item6{
-    margin-top: 7px;
+    margin-top: 12px;
+    display: flex;
 }
 
 #item7{
-    margin-top: 7px;
+    margin-top: 12px;
+    display: flex;
 }
 
-
-
-#iconeBotaoSeta{
-    position: relative;
-    image-orientation: flip;
-    width: 20px;
-    height: 20px;
+#iconeBotaoSeta3{
+    margin-left: 185px;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+#iconeBotaoSeta4{
+    margin-left: 183px;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+#iconeBotaoSeta5{
+    margin-left: 184px;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+#iconeBotaoSeta6{
+    margin-left: 205px;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+#iconeBotaoSeta7{
+    margin-left: 195px;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
 }
 
 .texto{
-    padding-left: 3px;
+    padding-left: 8px;
 }
