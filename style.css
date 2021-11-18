@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Roboto Slab';
-    src: url('RobotoSlab-Bold.ttf');
+    src: url('fontes/RobotoSlab-Bold.ttf');
 }
 
 @font-face {
     font-family: 'Titillium Web';
-    src: url('fonte2.ttf');
+    src: url('fontes/fonte2.ttf');
 }
 
 @font-face {
     font-family: 'Titillium light';
-    src: url('fonte4.ttf');
+    src: url('fontes/fonte4.ttf');
 }
 
 *{
@@ -100,6 +100,7 @@ body {
     padding-top: 16px;
     padding-left: 35px;
     border-radius: 34px;
+    box-shadow: 0 -1px 20px rgb(0 0 0 / 20%);
 }
 .settings h1{
     font-size: 24px;
@@ -208,7 +209,6 @@ body {
     width: 15px;
     height: 15px;
 }
-
 .texto{
     padding-left: 8px;
 }
