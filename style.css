@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('fonte2.ttf');
+}
+
+@font-face {
+    font-family: 'Titillium light';
+    src: url('fonte4.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#fundo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+body {
+    box-sizing: border-box;
+    background: #d4efec;
+    font-family: 'Roboto Slab';
+    font: normal;
+    font-size: 13px;
+
+}
+
+.tela{
+    background-color: #f4f4f4;
+    width: 350px;
+    height: 630px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 30px;
+}
+
+.local{
+    font-size: 12px;
+    color: rgb(167, 165, 165);
+    margin: 3px;
+}
+
+#profissao{
+    font-family: 'Titillium Web';
+    font-size: 19px;
+}
+
+#iconeSair{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -70px;
+    left: -90px;
+}
+
+#imagem{
+    width: 105px;
+    height: 105px;
+    border-radius: 360px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+}
+
+#botao{
+    background-color: #f22771;
+    color: #fff;
+    font-family: 'Roboto Slab';
+    font-size: 15px;
+    width: 220px;
+    height: 38px;
+    border-radius: 18px;
+    align-items: center;
+    border-color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.settings{
+    background-color: #fff;
+    text-align: left;
+    font-family: 'Titillium light';
+    font-size: 15px;
+    height: 334px;
+    padding-top: 12px;
+    padding-left: 35px;
+    border-radius: 35px;
+}
+.settings h1{
+    font-size: 24px;
+    font-family: 'Roboto Slab';
+    font: normal;
+}
+
+#item1{
+    margin-bottom: 25px;
+}
+
+#iconeDark{
+    background-color: black;
+    border-radius: 366px;
+    width: 27px;
+    height: 27px;
+    position: relative;
+    top: 5px;
+}
+
+#iconeBotao{
+    position: relative;
+    left: 140px;
+    top: 10px;
+}
+
+#item2{
+    margin-top: 7px;
+    display: flex;
+}
+
+#iconeBotaoOn{
+    position: relative;
+    width: 30px;
+    height: 20px;
+    left: 140px;
+}
+
+#item3{
+    margin-top: 7px;
+}
+
+
+#item4{
+    margin-top: 7px;
+}
+
+#item5{
+    margin-top: 25px;
+}
+
+#item6{
+    margin-top: 7px;
+}
+
+#item7{
+    margin-top: 7px;
+}
+
+
+
+#iconeBotaoSeta{
+    position: relative;
+    image-orientation: flip;
+    width: 20px;
+    height: 20px;
+}
+
+.texto{
+    padding-left: 3px;
+}
